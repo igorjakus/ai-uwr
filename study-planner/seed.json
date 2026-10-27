@@ -1,0 +1,1058 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "id": "current-0",
+      "name": "Introduction to Linear Optimization",
+      "ects": 6,
+      "semester": 1,
+      "status": "active",
+      "category": "Kurs",
+      "notes": "",
+      "grade": ""
+    },
+    {
+      "id": "current-1",
+      "name": "Statystyka z modelami liniowymi",
+      "ects": 7,
+      "semester": 1,
+      "status": "active",
+      "category": "Kurs",
+      "notes": "",
+      "grade": ""
+    },
+    {
+      "id": "current-2",
+      "name": "AI i społeczeństwo",
+      "ects": 1,
+      "semester": 1,
+      "status": "active",
+      "category": "Kurs",
+      "notes": "",
+      "grade": ""
+    },
+    {
+      "id": "current-3",
+      "name": "Seminarium: Wielkie modele językowe",
+      "ects": 3,
+      "semester": 1,
+      "status": "active",
+      "category": "Seminarium",
+      "notes": "",
+      "grade": ""
+    },
+    {
+      "id": "current-4",
+      "name": "Seminarium: Generative AI",
+      "ects": 3,
+      "semester": 1,
+      "status": "active",
+      "category": "Seminarium",
+      "notes": "Robione ponownie. Zaliczenie z licencjatu nie jest liczone do magisterki.",
+      "grade": ""
+    },
+    {
+      "id": "current-5",
+      "name": "Pisanie tekstów naukowych",
+      "ects": 3,
+      "semester": 1,
+      "status": "active",
+      "category": "Kurs",
+      "notes": "",
+      "grade": ""
+    },
+    {
+      "id": "current-6",
+      "name": "CUDA",
+      "ects": 3,
+      "semester": 1,
+      "status": "active",
+      "category": "Kurs",
+      "notes": "Q2. W arkuszu: „jak wybieralny za 6” — wymaga potwierdzenia.",
+      "grade": ""
+    },
+    {
+      "id": "transfer-2",
+      "name": "Modele Językowe",
+      "ects": 6,
+      "semester": 0,
+      "status": "transfer",
+      "category": "Do przepisania",
+      "notes": "Z arkusza: magisterskie do przepisania. Formalne uznanie do potwierdzenia.",
+      "grade": "",
+      "historyId": "bachelor-70"
+    },
+    {
+      "id": "transfer-3",
+      "name": "Machine Learning",
+      "ects": 7,
+      "semester": 0,
+      "status": "transfer",
+      "category": "Do przepisania",
+      "notes": "Z arkusza: magisterskie do przepisania. Formalne uznanie do potwierdzenia.",
+      "grade": "",
+      "historyId": "bachelor-54"
+    },
+    {
+      "id": "transfer-4",
+      "name": "Neural Networks",
+      "ects": 6,
+      "semester": 0,
+      "status": "transfer",
+      "category": "Do przepisania",
+      "notes": "Z arkusza: magisterskie do przepisania. Formalne uznanie do potwierdzenia.",
+      "grade": "",
+      "historyId": "bachelor-83"
+    },
+    {
+      "id": "transfer-5",
+      "name": "Algorytmy Ewolucyjne",
+      "ects": 6,
+      "semester": 0,
+      "status": "transfer",
+      "category": "Do przepisania",
+      "notes": "Z arkusza: magisterskie do przepisania. Formalne uznanie do potwierdzenia.",
+      "grade": "",
+      "historyId": "bachelor-69"
+    },
+    {
+      "id": "transfer-6",
+      "name": "Warsztat AI",
+      "ects": 3,
+      "semester": 0,
+      "status": "transfer",
+      "category": "Do przepisania",
+      "notes": "Z arkusza: magisterskie do przepisania. Formalne uznanie do potwierdzenia.",
+      "grade": "",
+      "historyId": "bachelor-71"
+    },
+    {
+      "id": "transfer-7",
+      "name": "Seminar: Generative AI",
+      "ects": 3,
+      "semester": 0,
+      "status": "completed",
+      "category": "Nie do przepisania",
+      "notes": "Poprzednie zaliczenie nie liczy się do magisterki — potwierdzone przez użytkownika.",
+      "grade": "",
+      "historyId": "bachelor-72"
+    },
+    {
+      "id": "transfer-8",
+      "name": "Sztuczna Inteligencja",
+      "ects": 6,
+      "semester": 0,
+      "status": "transfer",
+      "category": "Do przepisania",
+      "notes": "Z arkusza: magisterskie do przepisania. Formalne uznanie do potwierdzenia.",
+      "grade": "",
+      "historyId": "bachelor-45"
+    },
+    {
+      "id": "transfer-9",
+      "name": "Polityka kosmiczna",
+      "ects": 3,
+      "semester": 0,
+      "status": "transfer",
+      "category": "Do przepisania",
+      "notes": "Z arkusza: magisterskie do przepisania. Formalne uznanie do potwierdzenia.",
+      "grade": "",
+      "historyId": "bachelor-47"
+    },
+    {
+      "id": "other-13",
+      "name": "Seminar: Graph Neural Networks",
+      "ects": 3,
+      "semester": 0,
+      "status": "completed",
+      "category": "Nie do przepisania",
+      "notes": "Arkusz: magisterskie nie do przepisania.",
+      "grade": ""
+    },
+    {
+      "id": "other-14",
+      "name": "RecSys Challenge",
+      "ects": 4,
+      "semester": 0,
+      "status": "completed",
+      "category": "Nie do przepisania",
+      "notes": "Arkusz: magisterskie nie do przepisania.",
+      "grade": ""
+    },
+    {
+      "id": "next-adm",
+      "name": "Advanced Data Mining",
+      "ects": 6,
+      "semester": 2,
+      "status": "planned",
+      "category": "Kurs",
+      "grade": "",
+      "notes": "Plan na lato 2026/27. Godziny i uruchomienie zajęć do potwierdzenia. https://studia-wmi.uwr.edu.pl/studenci/si/"
+    },
+    {
+      "id": "next-an2",
+      "name": "Analiza numeryczna 2: aproksymacja (Q3)",
+      "ects": 4,
+      "semester": 2,
+      "status": "planned",
+      "category": "Kurs",
+      "grade": "",
+      "notes": "Plan na lato 2026/27. Godziny i uruchomienie zajęć do potwierdzenia. https://zapisy.ii.uni.wroc.pl/offer/3667-praktyka-obliczeniowa-aproksymacji/"
+    },
+    {
+      "id": "next-human",
+      "name": "Human do wyboru",
+      "ects": 3,
+      "semester": 2,
+      "status": "planned",
+      "category": "Human",
+      "grade": "",
+      "notes": "Human bez ćwiczeń, 3 ECTS. Do wyboru: Zarządzanie zespołem projektowym, Od Mordoru po Matrix lub Socjologia w informatyce. Manipulacje finansowe odrzucone."
+    }
+  ],
+  "requirements": [
+    {
+      "id": "req-2",
+      "name": "Machine Learning",
+      "ects": 7,
+      "semester": 1,
+      "done": true,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-3",
+      "name": "Statystyka z modelami liniowymi",
+      "ects": 7,
+      "semester": 1,
+      "done": false,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-4",
+      "name": "AI i społeczeństwo",
+      "ects": 1,
+      "semester": 1,
+      "done": false,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-5",
+      "name": "Human",
+      "ects": 5,
+      "semester": 1,
+      "done": false,
+      "mapping": "Human do wyboru (semestr 2)",
+      "notes": ""
+    },
+    {
+      "id": "req-6",
+      "name": "Seminarium",
+      "ects": 2,
+      "semester": 1,
+      "done": false,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-7",
+      "name": "Warsztat AI",
+      "ects": 3,
+      "semester": 1,
+      "done": true,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-10",
+      "name": "Sztuczna Inteligencja",
+      "ects": 6,
+      "semester": 2,
+      "done": true,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-11",
+      "name": "Sieci Neuronowe",
+      "ects": 6,
+      "semester": 2,
+      "done": true,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-12",
+      "name": "Projekt zespołowy",
+      "ects": 4,
+      "semester": 2,
+      "done": false,
+      "mapping": "Projekt deep learning",
+      "notes": "może most?"
+    },
+    {
+      "id": "req-13",
+      "name": "ML dla złożonych struktur danych",
+      "ects": 6,
+      "semester": 2,
+      "done": false,
+      "mapping": "Advanced Data Mining",
+      "notes": "może most?"
+    },
+    {
+      "id": "req-14",
+      "name": "Przedmiot do wyboru",
+      "ects": 6,
+      "semester": 2,
+      "done": false,
+      "mapping": "",
+      "notes": "semestr 1"
+    },
+    {
+      "id": "req-18",
+      "name": "Modele Językowe",
+      "ects": 6,
+      "semester": 3,
+      "done": true,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-19",
+      "name": "Probablistyczne aspekty SI",
+      "ects": 6,
+      "semester": 3,
+      "done": false,
+      "mapping": "Probablistyczne podstawy AI",
+      "notes": ""
+    },
+    {
+      "id": "req-20",
+      "name": "Praktyczne aspekty SI",
+      "ects": 6,
+      "semester": 3,
+      "done": true,
+      "mapping": "",
+      "notes": "Algorytmy Ewolucyjne zrobiłem"
+    },
+    {
+      "id": "req-21",
+      "name": "Seminarium",
+      "ects": 2,
+      "semester": 3,
+      "done": false,
+      "mapping": "",
+      "notes": "Poprzednie Generative AI nie liczy się. Zajęcia robione ponownie."
+    },
+    {
+      "id": "req-22",
+      "name": "Przedmiot do wyboru",
+      "ects": 6,
+      "semester": 3,
+      "done": false,
+      "mapping": "",
+      "notes": ""
+    },
+    {
+      "id": "req-25",
+      "name": "Seminarium",
+      "ects": 2,
+      "semester": 4,
+      "done": false,
+      "mapping": "Seminarka",
+      "notes": ""
+    },
+    {
+      "id": "req-26",
+      "name": "Przedmiot do wyboru ",
+      "ects": 6,
+      "semester": 4,
+      "done": false,
+      "mapping": "Kurs Linux",
+      "notes": ""
+    }
+  ],
+  "catalog": [
+    {
+      "id": "catalog-33",
+      "name": "Statystyka i modele liniowe",
+      "ects": 7,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "external-33",
+      "name": "Sterowanie robotami",
+      "ects": 6,
+      "school": "UW",
+      "season": "Zimowy",
+      "notes": ""
+    },
+    {
+      "id": "catalog-34",
+      "name": "Information and Coding Theory",
+      "ects": 6,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "external-34",
+      "name": "Uczenie maszynowe w dużej skali",
+      "ects": 6,
+      "school": "UW",
+      "season": "Zimowy",
+      "notes": ""
+    },
+    {
+      "id": "catalog-35",
+      "name": "Introduction to Linear Optimization",
+      "ects": 6,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-36",
+      "name": "Computational learning theory",
+      "ects": 6,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-37",
+      "name": "AI i Spoleczenstwo",
+      "ects": 1,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-38",
+      "name": "Probablistyczne podstawy AI",
+      "ects": 6,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-39",
+      "name": "CUDA",
+      "ects": 3,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-40",
+      "name": "Kurs Rust",
+      "ects": 5,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-41",
+      "name": "Seminarium Wielkie modele językowe",
+      "ects": 3,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-42",
+      "name": "Idee post-humanizmu",
+      "ects": 5,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-43",
+      "name": "Uczenie maszynowe",
+      "ects": null,
+      "school": "UWr",
+      "season": "Semestr zimowy UWr",
+      "notes": "ECTS niepotwierdzone: ?7"
+    },
+    {
+      "id": "external-46",
+      "name": "Explainable AI (lato)",
+      "ects": 6,
+      "school": "UW",
+      "season": "Letni",
+      "notes": ""
+    },
+    {
+      "id": "external-47",
+      "name": "Visual recognition (lato)",
+      "ects": 6,
+      "school": "UW",
+      "season": "Letni",
+      "notes": ""
+    },
+    {
+      "id": "catalog-48",
+      "name": "Advanced Data Mining",
+      "ects": 6,
+      "school": "UWr",
+      "season": "Semestr letni UWr",
+      "notes": ""
+    },
+    {
+      "id": "external-48",
+      "name": "Reinforcement learning (lato)",
+      "ects": 6,
+      "school": "UW",
+      "season": "Letni",
+      "notes": ""
+    },
+    {
+      "id": "catalog-49",
+      "name": "Numerical Optimization",
+      "ects": 8,
+      "school": "UWr",
+      "season": "Semestr letni UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-50",
+      "name": "Analiza numeryczna 2: aproksymacja (Q3)",
+      "ects": 4,
+      "school": "UWr",
+      "season": "Semestr letni UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-51",
+      "name": "Zarządzanie projektem zespołowym",
+      "ects": 3,
+      "school": "UWr",
+      "season": "Semestr letni UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-52",
+      "name": "Kurs Administrowania Systemem Linux",
+      "ects": 5,
+      "school": "UWr",
+      "season": "Semestr letni UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-53",
+      "name": "Zadania i wyzwania AI",
+      "ects": 3,
+      "school": "UWr",
+      "season": "Semestr letni UWr",
+      "notes": ""
+    },
+    {
+      "id": "catalog-54",
+      "name": "Projekt: Deep Learning",
+      "ects": 4,
+      "school": "UWr",
+      "season": "Semestr letni UWr",
+      "notes": ""
+    },
+    {
+      "id": "external-57",
+      "name": "Analiza i przetwarzanie dźwięku",
+      "ects": 4,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    },
+    {
+      "id": "catalog-58",
+      "name": "Seminar: Uncertainty Quantification in Machine Learning",
+      "ects": 3,
+      "school": "UWr",
+      "season": "Semestr nieokreślony UWr",
+      "notes": ""
+    },
+    {
+      "id": "external-58",
+      "name": "Analiza i przetwarzanie obrazu i wideo",
+      "ects": 4,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    },
+    {
+      "id": "external-59",
+      "name": "Zaawansowane modele głębokich sieci neuronowych",
+      "ects": 4,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    },
+    {
+      "id": "external-60",
+      "name": "Techniki ochrony prywatności w przetwarzaniu danych",
+      "ects": 4,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    },
+    {
+      "id": "external-61",
+      "name": "Biometria",
+      "ects": 4,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    },
+    {
+      "id": "external-62",
+      "name": "Systemy rekomendacyjne i personalizacja",
+      "ects": 2,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    },
+    {
+      "id": "external-63",
+      "name": "Projekt naukowo-wdrożeniowy 2",
+      "ects": 3,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    },
+    {
+      "id": "external-65",
+      "name": "Probabilistyczne modele grafowe",
+      "ects": 2,
+      "school": "PWr",
+      "season": "",
+      "notes": ""
+    }
+  ],
+  "tasks": [],
+  "semesterNames": [
+    "Zimowy 2026/27",
+    "Letni 2026/27",
+    "Zimowy 2027/28",
+    "Letni 2027/28"
+  ],
+  "history": [
+    {
+      "id": "bachelor-35",
+      "name": "Analiza matematyczna I",
+      "ects": 5.0,
+      "semester": 1,
+      "exercise": "5",
+      "exam": "4,5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-36",
+      "name": "Logika dla informatyków",
+      "ects": 8.0,
+      "semester": 1,
+      "exercise": "5",
+      "exam": "4",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-37",
+      "name": "Wstęp do informatyki",
+      "ects": 6.0,
+      "semester": 1,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-38",
+      "name": "Wstęp do programowania w Python",
+      "ects": 5.0,
+      "semester": 1,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-39",
+      "name": "Podstawowy warsztat informatyka",
+      "ects": 3.0,
+      "semester": 1,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-42",
+      "name": "Analiza matematyczna II",
+      "ects": 5.0,
+      "semester": 2,
+      "exercise": "4,5",
+      "exam": "4",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-43",
+      "name": "Algebra",
+      "ects": 8.0,
+      "semester": 2,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-44",
+      "name": "Metody programowania",
+      "ects": 9.0,
+      "semester": 2,
+      "exercise": "5",
+      "exam": "4,5",
+      "lab": "5",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-45",
+      "name": "Sztuczna Inteligencja",
+      "ects": 6.0,
+      "semester": 2,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "surplus",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-46",
+      "name": "Programowanie obiektowe",
+      "ects": 6.0,
+      "semester": 2,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-47",
+      "name": "Polityka kosmiczna",
+      "ects": 3.0,
+      "semester": 2,
+      "exercise": "4,5",
+      "exam": "",
+      "lab": "",
+      "allocation": "surplus",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-48",
+      "name": "Wspinaczka",
+      "ects": 0.0,
+      "semester": 2,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-49",
+      "name": "Angielski",
+      "ects": 0.0,
+      "semester": 2,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-52",
+      "name": "Matematyka Dyskretna M",
+      "ects": 9.0,
+      "semester": 3,
+      "exercise": "5",
+      "exam": "4",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-53",
+      "name": "Analiza Numeryczna",
+      "ects": 8.0,
+      "semester": 3,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-54",
+      "name": "Machine Learning",
+      "ects": 7.0,
+      "semester": 3,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "surplus",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-55",
+      "name": "Programowanie funkcyjne",
+      "ects": 6.0,
+      "semester": 3,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-56",
+      "name": "Metody implementacji algorytmów",
+      "ects": 4.0,
+      "semester": 3,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-57",
+      "name": "Ochrona własności intelektualnej",
+      "ects": 1.0,
+      "semester": 3,
+      "exercise": "4,5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-58",
+      "name": "Angielski",
+      "ects": 12.0,
+      "semester": 3,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-61",
+      "name": "Algorytmy i Struktury Danych",
+      "ects": 13.0,
+      "semester": 4,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "5",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-62",
+      "name": "Bazy danych",
+      "ects": 6.0,
+      "semester": 4,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-63",
+      "name": "Rachunek prawdopodobieństwa",
+      "ects": 6.0,
+      "semester": 4,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-64",
+      "name": "Algorytmika Praktyczna",
+      "ects": 6.0,
+      "semester": 4,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-65",
+      "name": "Samoobrona",
+      "ects": 0.0,
+      "semester": 4,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-69",
+      "name": "Algorytmy Ewolucyjne",
+      "ects": 6.0,
+      "semester": 5,
+      "exercise": "5",
+      "exam": "4,5",
+      "lab": "",
+      "allocation": "surplus",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-70",
+      "name": "Modele Językowe",
+      "ects": 6.0,
+      "semester": 5,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "surplus",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-71",
+      "name": "Warsztat AI",
+      "ects": 3.0,
+      "semester": 5,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "surplus",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-72",
+      "name": "Seminar: Generative AI",
+      "ects": 3.0,
+      "semester": 5,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-73",
+      "name": "Seminar: GNN",
+      "ects": 3.0,
+      "semester": 5,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-74",
+      "name": "Kurs Rozszerzony Python",
+      "ects": 5.0,
+      "semester": 5,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-75",
+      "name": "WEPPO",
+      "ects": 6.0,
+      "semester": 5,
+      "exercise": "5",
+      "exam": "4,5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-79",
+      "name": "Systemy Komputerowe",
+      "ects": 6.0,
+      "semester": 6,
+      "exercise": "4,5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-80",
+      "name": "Sieci Komputerowe",
+      "ects": 6.0,
+      "semester": 6,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-81",
+      "name": "RecSys Challenge",
+      "ects": 4.0,
+      "semester": 6,
+      "exercise": "5",
+      "exam": "",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-82",
+      "name": "Etyka w AI",
+      "ects": 5.0,
+      "semester": 6,
+      "exercise": "5",
+      "exam": "4",
+      "lab": "",
+      "allocation": "bachelor",
+      "transferStatus": "pending"
+    },
+    {
+      "id": "bachelor-83",
+      "name": "Neural Networks Theory and Practice",
+      "ects": 6.0,
+      "semester": 6,
+      "exercise": "5",
+      "exam": "5",
+      "lab": "",
+      "allocation": "surplus",
+      "transferStatus": "pending"
+    }
+  ],
+  "simplified": true,
+  "historyNotes": [
+    "Projekt silnik szachowy (4 ECTS) widnieje w planie semestru 6, ale nie w tabeli ocen — zaliczenie niepotwierdzone.",
+    "WEPPO: 5 ECTS w planie, 6 ECTS w tabeli ocen. W historii przyjęto 6 z tabeli ocen.",
+    "GNN: arkusz licencjacki wymienia do przepisania, magisterski — nie do przepisania. Zachowano nowszą listę z arkusza magisterskiego.",
+    "Generative AI: poprzednie zaliczenie nie liczy się do magisterki. Aktualnie robione ponownie (informacja użytkownika)."
+  ]
+}

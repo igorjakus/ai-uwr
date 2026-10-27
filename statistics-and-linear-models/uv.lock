@@ -6,10 +6,6 @@ resolution-markers = [
     "python_full_version < '3.14'",
 ]
 
-[options]
-exclude-newer = "0001-01-01T00:00:00Z" # This has no effect and is included for backwards compatibility when using relative exclude-newer values.
-exclude-newer-span = "-P2D"
-
 [[package]]
 name = "anyio"
 version = "4.15.1"
@@ -1967,6 +1963,11 @@ dependencies = [
     { name = "scipy" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "nbconvert" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
@@ -1975,6 +1976,9 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.5.3" },
     { name = "scipy", specifier = ">=1.18.1" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "nbconvert", specifier = ">=7.17.1" }]
 
 [[package]]
 name = "six"

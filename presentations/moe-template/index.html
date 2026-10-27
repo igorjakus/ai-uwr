@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MoE · HTML presentation template</title><link rel="stylesheet" href="theme.css"><script src="slides.js" defer></script></head>
+<body>
+<main id="stage"><div class="deck" aria-label="Presentation">
+<section class="slide dark cover" aria-label="Mixture of Experts">
+<p class="eyebrow">Seminar: Large Language Models</p><h1>Mixture of Experts</h1><div class="byline">Igor Jakus <time datetime="2026-10-14">14.10.2026</time></div>
+</section>
+<section class="slide" aria-label="Knowledge vs compute">
+<h2>Knowledge vs compute</h2><div class="comparison"><article><h3>Parameters</h3><p>~how much the model can memorize</p></article><article><h3>FLOPs per token</h3><p>how much it costs to process each token</p></article></div>
+</section>
+<section class="slide dark" aria-label="Conditional computation"><p class="eyebrow">Mixture of Experts</p><div class="section-title">More parameters.<br><em>Same compute.</em></div><div class="footer"><span>Conditional computation</span></div></section>
+<section class="slide" aria-label="Top-k routing">
+<h2>Top-k</h2><p class="subtitle">Activate only the selected experts for each token.</p>
+<div class="routing-controls" role="group" aria-label="Routing mode"><button data-k="1" aria-pressed="true">Top-1</button><button data-k="2" aria-pressed="false">Top-2</button></div>
+<div class="flow"><div class="node">token x</div><div class="arrow">→</div><div class="node">Router<small>softmax(W · x)</small></div><div class="arrow">→</div><div class="experts"><div class="expert"><small>0.12</small>E1</div><div class="expert selected"><small>0.61</small>E2</div><div class="expert" data-secondary><small>0.18</small>E3</div><div class="expert"><small>0.09</small>E4</div></div><div class="arrow">→</div><div class="node" data-selection>top-1: E2</div></div>
+<p class="formula" data-formula aria-live="polite">y = 0.61 · E2(x)</p><div class="footer"><span>Illustrative router probabilities · unnormalized selected weights</span></div>
+</section>
+<section class="slide" aria-label="Why multiply by p?"><h2>Why multiply by p?</h2><pre class="code"><code>probs = softmax(router(x))
+i = argmax(probs)       <span class="comment"># int, no gradient</span>
+p = probs[i]
+
+y = expert[i](x)       <span class="comment"># router.grad = 0</span>
+<span class="highlight">y = p * expert[i](x)</span>   <span class="comment"># grad flows through p</span></code></pre></section>
+<section class="slide" aria-label="What about memory?"><h2>What about memory?</h2><div class="table-wrap"><table><thead><tr><th scope="col"></th><th scope="col">Dense 671B</th><th scope="col">MoE 671B</th><th scope="col">Dense 37B</th></tr></thead><tbody><tr><th scope="row">Weights in memory (FP8)</th><td>~671 GB</td><td>~671 GB</td><td>~37 GB</td></tr><tr><th scope="row">FLOPs per token</th><td>~1.3 TFLOP</td><td>~74 GFLOP</td><td>~74 GFLOP</td></tr></tbody></table></div><div class="footer"><span>Illustrative comparison from the source deck · weights only, excluding runtime overhead</span></div></section>
+<section class="slide" aria-label="Takeaway"><p class="eyebrow">Takeaway</p><div class="statement">Store knowledge<br>in many experts.<br><em>Use a few per token.</em></div><div class="footer"><span>Mixture of Experts</span></div></section>
+</div></main>
+<div class="help">← → navigate · O overview · F fullscreen</div>
+<nav class="toolbar" aria-label="Presentation controls"><button id="prev" aria-label="Previous slide">←</button><span id="counter" aria-live="polite"></span><button id="next" aria-label="Next slide">→</button><button id="overview" aria-pressed="false">Overview</button><button id="fullscreen">Fullscreen</button><button id="print">PDF / print</button></nav><div class="progress" aria-hidden="true"></div>
+</body></html>
